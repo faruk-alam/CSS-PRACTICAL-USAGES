@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+.wrapper{
+    background-color: honeydew;
+    margin: 0 auto;
+    width: 900px;
+    height: 1000px;
+    padding: 0 15px;
+}
+img{
+    display: block;
+    margin: 0px auto;
+    padding: 5px 0;
+}

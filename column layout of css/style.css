@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1200px
+    padding:30px;
+    margin: 0 auto;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+
+}
+.nav li a:link,li a:visited{
+    text-decoration: none;
+    padding: 10px;
+    color: #053118;
+    font-size: 20px;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding:5px 20px 5px 0;
+}
+.main{
+    width: 800px;
+    float: left;
+
+}
+.main-inner{
+    padding: 0 80px 0 0;
+
+}
+p{
+    line-height: 20px;
+}
+.side{
+    width: 400px;
+    float: left;
+}
+.footer{
+
+}
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

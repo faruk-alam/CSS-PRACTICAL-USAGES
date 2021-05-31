@@ -1,0 +1,38 @@
+body{
+    background-color: #e27e92;
+    margin: 0;
+}
+.media-contact{
+    background-color: #2b2b4d;
+    padding: 25px;
+    text-align: center;
+    border: none;
+}
+.media-contact>button{
+    border: none;
+    padding: 3px 8px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: x-large;
+}
+.icon:nth-child(1){
+    color: #4267B2;
+}
+.icon:nth-child(2){
+    color: #FF0000;
+}
+.icon:nth-child(3){
+    color: #25d366;
+}
+.icon:nth-child(5){
+    color: #F2A60C;
+}
+.media-contact{
+    position: fixed;
+    top: 87vh;
+    width: 100%;
+    margin: 0;
+}
+.media-contact>button:hover{
+    background-color: rgb(95, 92, 92);
+}

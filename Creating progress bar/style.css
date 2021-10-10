@@ -1,0 +1,25 @@
+p{
+    font-size: larger;
+}
+.container{
+    width: 50%;
+    background-color: #fd9fdb;
+    border-radius: 15px;
+}
+.progress{
+    background-color: #b60776;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+    padding: 1%;
+    text-align: right;
+}
+.html{
+    width: 95%;
+}
+.css{
+    width: 90%;
+}
+.js{
+    width: 33%;
+}
